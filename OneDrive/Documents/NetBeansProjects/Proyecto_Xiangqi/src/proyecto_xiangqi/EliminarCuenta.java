@@ -57,6 +57,7 @@ public class EliminarCuenta extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Ink Free", 0, 18)); // NOI18N
         jLabel4.setText("Confirmar Contraseña:");
 
+        jButton1.setBackground(new java.awt.Color(255, 204, 153));
         jButton1.setFont(new java.awt.Font("Ink Free", 0, 18)); // NOI18N
         jButton1.setText("Eliminar Cuenta");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -65,6 +66,7 @@ public class EliminarCuenta extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 204, 153));
         jButton2.setFont(new java.awt.Font("Ink Free", 0, 18)); // NOI18N
         jButton2.setText("Regresar");
 

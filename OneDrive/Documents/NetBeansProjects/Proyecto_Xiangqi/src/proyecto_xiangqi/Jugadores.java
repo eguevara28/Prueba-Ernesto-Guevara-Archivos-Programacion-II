@@ -129,10 +129,7 @@ public class Jugadores {
             Jugadores j = jugadores[i];
             if (j != null && j.getUsername().equals(nombre) && j.password.equals(password)) {
                 jugadores[i] = null;
-                if (nombre.equals(jugadorloggeado)) {
-                    jugadorloggeado = null;
-                }
-                JOptionPane.showMessageDialog(null, "Cuenta eliminada exitosamente.");
+                desloggear();
                 return true;
             }
         }

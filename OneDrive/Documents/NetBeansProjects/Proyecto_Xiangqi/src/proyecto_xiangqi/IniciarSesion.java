@@ -162,6 +162,8 @@ public class IniciarSesion extends javax.swing.JFrame {
                 MenuJuego mj=new MenuJuego();
                 mj.setVisible(true);
                 this.dispose();
+            }else{
+                JOptionPane.showMessageDialog(null, "Esta cuenta no existe");
             }
         }
     }//GEN-LAST:event_jButton1ActionPerformed

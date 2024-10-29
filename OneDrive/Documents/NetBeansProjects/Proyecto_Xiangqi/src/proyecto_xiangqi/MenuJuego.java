@@ -54,7 +54,7 @@ public class MenuJuego extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Ink Free", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Ink Free", 0, 18)); // NOI18N
         jLabel2.setText("Bienvenido: "+Jugadores.jugadorloggeado);
 
         jButton2.setBackground(new java.awt.Color(255, 204, 153));

@@ -157,6 +157,8 @@ public class CrearCuenta extends javax.swing.JFrame {
                 MenuJuego mj=new MenuJuego();
                 mj.setVisible(true);
                 this.dispose();
+            }else{
+                JOptionPane.showMessageDialog(null, "Esta cuenta ya existe");
             }
             }else{
                 JOptionPane.showMessageDialog(null, "La contraseña tiene que ser de 5 caracteres");

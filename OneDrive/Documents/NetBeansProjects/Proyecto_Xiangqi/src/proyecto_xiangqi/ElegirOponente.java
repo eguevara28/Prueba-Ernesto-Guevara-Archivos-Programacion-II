@@ -52,6 +52,7 @@ public class ElegirOponente extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Ink Free", 0, 36)); // NOI18N
         jLabel1.setText("Selecciona tu Oponente:");
 
+        jButton1.setBackground(new java.awt.Color(255, 204, 153));
         jButton1.setText("Elegir");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
