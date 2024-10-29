@@ -706,14 +706,14 @@ public class Tablero extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (turno) {
-                    JOptionPane.showMessageDialog(null, "El jugador " + Jugadores.jugadorloggeado + " con las fichas Negras se ha rendido, felicidades " + Jugadores.jugadorcontrario + " Has ganado 3 puntos");
+                    JOptionPane.showMessageDialog(null, "El jugador " + Jugadores.jugadorloggeado + " con las fichas Negras se ha rendido");
                     j.añadirpuntosganador(Jugadores.jugadorcontrario);
                     j.agregarLogsAlRendir(Jugadores.jugadorcontrario, Jugadores.jugadorloggeado);
                     MenuJuego mj = new MenuJuego();
                     mj.setVisible(true);
                     Tablero.this.dispose();
                 } else if (!turno) {
-                    JOptionPane.showMessageDialog(null, "El jugador " + Jugadores.jugadorcontrario + " con las fichas Negras se ha rendido, felicidades " + Jugadores.jugadorloggeado + " Has ganado 3 puntos");
+                    JOptionPane.showMessageDialog(null, "El jugador " + Jugadores.jugadorcontrario + " con las fichas Rojas se ha rendido");
                     j.añadirpuntosganador(Jugadores.jugadorloggeado);
                     j.agregarLogsAlRendir(Jugadores.jugadorloggeado, Jugadores.jugadorcontrario);
                     MenuJuego mj = new MenuJuego();
